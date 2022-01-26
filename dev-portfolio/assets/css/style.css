@@ -22381,6 +22381,8 @@ body.white-version {
     color: var(--color-body-white);
 }
 
+hello
+
 .white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list::before {
     background: var(--gradient-red-hover);
 }

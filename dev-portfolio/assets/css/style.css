@@ -21155,6 +21155,10 @@ Rn Slick Dots Style
     transition: 0.3s;
 }
 
+.slick-arrow:hover img {
+    filter: invert(99%) sepia(0%) saturate(0%) hue-rotate(38deg) brightness(115%) contrast(100%) !important;
+}
+
 .slick-arrow-style-one.arrow-top-align .slide-arrow:hover {
     color: var(--color-primary);
 }

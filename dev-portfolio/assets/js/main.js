@@ -147,7 +147,11 @@
         dots: true,
         arrows: true,
         adaptiveHeight: true,
-        cssEase: "linear"
+        cssEase: "linear",
+        prevArrow:
+          '<button class="slide-arrow prev-arrow" style="line-height: 1;"><img style="filter: invert(22%) sepia(100%) saturate(3351%) hue-rotate(100deg) brightness(100%) contrast(101%);" src="assets/images/icones/arrow-left.svg" /></button>',
+        nextArrow:
+          '<button class="slide-arrow next-arrow" style="line-height: 1;"><img style="filter: invert(22%) sepia(100%) saturate(3351%) hue-rotate(100deg) brightness(100%) contrast(101%);" src="assets/images/icones/arrow-right.svg" /></button>',
       });
 
       $(".testimonial-item-one").slick({

@@ -147,11 +147,7 @@
         dots: true,
         arrows: true,
         adaptiveHeight: true,
-        cssEase: "linear",
-        prevArrow:
-          '<button class="slide-arrow prev-arrow"><i data-feather="arrow-left"></i></button>',
-        nextArrow:
-          '<button class="slide-arrow next-arrow"><i data-feather="arrow-right"></i></button>',
+        cssEase: "linear"
       });
 
       $(".testimonial-item-one").slick({

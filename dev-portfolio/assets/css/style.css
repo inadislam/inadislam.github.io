@@ -20324,7 +20324,12 @@ div#featured-project-carousel {
     }
 }
 
-.rn-portfolio .inner .content .title a i,
+.feather-loader {
+    width: 14px;
+    height: 14px;
+}
+
+.rn-portfolio .inner .content .title a svg,
 .rn-blog .inner .content .title a i {
     font-size: 0;
     position: relative;
@@ -20339,7 +20344,7 @@ div#featured-project-carousel {
     color: var(--color-primary);
 }
 
-.rn-portfolio .inner .content .title:hover a i,
+.rn-portfolio .inner .content .title:hover a svg,
 .rn-blog .inner .content .title:hover a i {
     color: var(--color-primary);
     top: 3px;

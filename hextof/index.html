@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HexTOF - A simple tool for convert Hex code to Filter</title>
+    <link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body>
-    <h1>Wait!! Coming soon</h1>
+    <div class="App">
+        <div class="intro">Convert HTML Hex color to CSS Filter</div>
+        <div class="converter">
+            <div class="left">
+                <div class="fields">
+                    <label id="base"># </label>
+                    <input type="text" v-model="baseColor" value="#00a4d6" class="target" placeholder="#" />
+                    <br />
+                    <button class='execute'>Compute</button>
+                </div>
+            </div>
+            <div class="right">
+                <div class="result">
+                </div>
+            </div>
+        </div>
+        <div class="converter two">
+            <div class="left" id="lhtml">
+                <div class="html">
+                </div>
+            </div>
+            <div class="right">
+                <div class="loss">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="assets/script.js"></script>
 </body>
+
 </html>

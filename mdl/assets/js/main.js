@@ -18,7 +18,7 @@ $(document).ready(function () {
                 $(".download-links").html("<span class='text-success'>Working...</span>");
                 $.ajax({
                     type: "GET",
-                    url: `http://localhost:8080/dlink?murl=${murl}`,
+                    url: `https://movie-link-bd.herokuapp.com/dlink?murl=${murl}`,
                     headers: {
                         "Access-Control-Allow-Origin": "*"
                     },

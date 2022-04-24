@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap");
+.font-hind {
+    font-family: "Hind Siliguri", sans-serif !important;
+}
+ul {
+    margin: 0;
+}
+.admin-name {
+    font-size: 30px;
+    margin-bottom: 10px !important;
+}
+.copyright-area {
+    background: #202020;
+    padding: 15px 0;
+}
+.copyright-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #878787;
+}
+.copyright-text p a {
+    color: #ff5e14;
+    text-decoration: none;
+}
+.footer-menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.footer-menu li:hover a {
+    color: #ff5e14;
+}
+.footer-menu li a {
+    font-size: 14px;
+    color: #878787;
+    text-decoration: none;
+}
+
+.btn {
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+    width: 60px;
+}
+.download-links {
+	margin-left: 30px;
+    font-size: 18px;
+}
+.input-group {
+    width: 50% !important;
+}
+.btn.btn-danger.dlinks {
+	height: 40px;
+}
